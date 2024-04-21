@@ -1,0 +1,1532 @@
+Compliance Tag,Severity,Rule Name,Rule Id,Tested,Relevant,Non-compliant
+Principle 1.3,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 1.3,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 1.3,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 1.3,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 1.3,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 1.3,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 1.3,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 1.3,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 1.3,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 1.3,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 1.3,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 1.3,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 1.3,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 1.3,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 1.3,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 1.3,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 1.3,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 1.3,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 1.3,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 1.3,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 1.3,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 1.3,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 1.3,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 1.3,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 1.3,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 1.3,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 1.3,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 1.3,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 1.3,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 1.3,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 1.3,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 1.3,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 1.3,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 1.3,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 1.3,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 1.3,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 1.3,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 1.3,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 1.3,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 1.3,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 1.3,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 1.3,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 1.3,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 1.3,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 1.3,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 1.3,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 1.3,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 1.4,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 1.4,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 1.4,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 1.4,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 1.4,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 1.4,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 1.4,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 1.4,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 1.4,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 1.4,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 1.4,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 1.4,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 1.4,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 1.4,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 1.4,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 1.4,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 1.4,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 1.4,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 1.4,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 1.4,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 1.4,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 1.4,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 1.4,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 1.4,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 1.4,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 1.4,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 1.4,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 1.4,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 1.4,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 1.4,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 1.4,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 1.4,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 1.4,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 1.4,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 1.4,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 1.4,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 1.4,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 1.4,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 1.4,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 1.4,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 1.4,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 1.4,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 1.4,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 1.4,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 1.4,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 1.4,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 1.4,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 1.7,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 1.7,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 1.7,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 1.7,High,Ensure a log metric filter and alarm exist for STS 'AssumeRole' action,D9.AWS.MON.22,1,1,1
+Principle 1.7,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 1.7,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 1.7,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 1.7,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 1.7,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 1.7,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 1.7,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 1.7,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 1.7,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 1.7,Medium,Ensure a log metric filter and alarm exist for EC2 instance changes,D9.AWS.MON.26,1,1,1
+Principle 1.7,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 1.7,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 1.7,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 1.7,Medium,Ensure your AWS CloudFormation stacks are integrated with Simple Notification Service (SNS),D9.AWS.MON.36,101,101,101
+Principle 1.7,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 1.7,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 1.7,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 1.7,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 1.7,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 1.7,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 1.7,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 1.7,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 1.7,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 1.7,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 1.7,Low,Ensure a log metric filter and alarm exists for AWS MFA Deletion for IAM users,D9.AWS.MON.25,1,1,1
+Principle 1.7,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 1.7,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 1.7,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 1.7,Low,Ensure Email Address is added for each Amazon Detective's Member,D9.AWS.MON.47,0,0,0
+Principle 1.7,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 1.7,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 1.7,High,Ensure a log metric filter and alarm exist for IAM login profile changes,D9.AWS.MON.21,1,1,1
+Principle 1.7,Low,Ensure that the configuration recorder is set to 'on' and set S3 Bucket and SNS topic as your delivery channel,D9.AWS.MON.16,0,0,0
+Principle 1.7,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 1.7,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 1.7,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 1.7,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 1.7,Low,Ensure Auto Scaling group does not have suspended processes,D9.AWS.OPE.20,1,1,0
+Principle 1.7,High,Ensure a log metric filter and alarm exist for SSM actions,D9.AWS.MON.23,1,1,1
+Principle 1.7,Medium,Ensure a log metric filter and alarm exist for EC2 Large instance changes,D9.AWS.MON.27,1,1,1
+Principle 1.7,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 1.7,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 1.7,Low,Ensure Network firewall alerts logging is enabled,D9.AWS.LOG.21,0,0,0
+Principle 1.7,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 1.7,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 1.7,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 1.7,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 1.7,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 1.7,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 1.7,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 1.7,Low,Ensure that Support Case status is not 'pending-customer-action',D9.AWS.OPE.78,0,0,0
+Principle 1.7,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 1.7,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 1.7,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 1.7,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 2.2,High,Ensure that EC2 instances do not have high-severity vulnerabilities,D9.AWS.VLN.15,7,5,5
+Principle 2.2,Critical,Ensure that EC2 instances do not have critical vulnerabilities,D9.AWS.VLN.14,7,5,5
+Principle 2.2,High,Ensure that ECR Registry-level configuration is enabled for image scanning,D9.AWS.CRY.93,18,2,0
+Principle 2.2,Low,Amazon GuardDuty service is enabled in the region,D9.AWS.VLN.03,18,18,16
+Principle 2.3,High,Ensure that EC2 instances do not have high-severity vulnerabilities,D9.AWS.VLN.15,7,5,5
+Principle 2.3,Critical,Ensure that EC2 instances do not have critical vulnerabilities,D9.AWS.VLN.14,7,5,5
+Principle 2.3,High,Ensure that ECR Registry-level configuration is enabled for image scanning,D9.AWS.CRY.93,18,2,0
+Principle 2.3,Low,Amazon GuardDuty service is enabled in the region,D9.AWS.VLN.03,18,18,16
+Principle 2.4,High,Ensure that EC2 instances do not have high-severity vulnerabilities,D9.AWS.VLN.15,7,5,5
+Principle 2.4,Critical,Ensure that EC2 instances do not have critical vulnerabilities,D9.AWS.VLN.14,7,5,5
+Principle 2.4,High,Ensure that ECR Registry-level configuration is enabled for image scanning,D9.AWS.CRY.93,18,2,0
+Principle 2.4,Low,Amazon GuardDuty service is enabled in the region,D9.AWS.VLN.03,18,18,16
+Principle 2.5,High,Ensure that EC2 instances do not have high-severity vulnerabilities,D9.AWS.VLN.15,7,5,5
+Principle 2.5,Critical,Ensure that EC2 instances do not have critical vulnerabilities,D9.AWS.VLN.14,7,5,5
+Principle 2.5,High,Ensure that ECR Registry-level configuration is enabled for image scanning,D9.AWS.CRY.93,18,2,0
+Principle 2.5,Low,Amazon GuardDuty service is enabled in the region,D9.AWS.VLN.03,18,18,16
+Principle 3.1,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 3.1,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 3.1,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 3.1,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 3.1,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 3.1,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 3.1,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 3.1,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 3.1,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 3.1,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 3.1,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 3.1,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 3.1,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 3.1,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 3.1,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 3.1,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 3.1,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 3.1,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 3.1,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 3.1,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 3.1,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 3.1,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 3.1,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 3.1,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 3.1,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 3.1,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 3.1,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 3.1,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 3.1,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 3.1,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 3.1,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 3.1,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 3.1,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 3.1,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 3.1,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 3.1,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 3.1,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 3.1,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 3.1,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 3.1,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 3.1,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 3.1,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 3.1,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 3.1,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 3.1,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 3.1,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 3.1,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 3.2,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 3.2,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 3.2,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 3.2,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 3.2,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 3.2,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 3.2,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 3.2,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 3.2,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 3.2,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 3.2,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 3.2,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 3.2,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 3.2,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 3.2,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 3.2,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 3.2,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 3.2,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 3.2,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 3.2,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 3.2,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 3.2,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 3.2,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 3.2,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 3.2,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 3.2,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 3.2,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 3.2,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 3.2,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 3.2,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 3.2,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 3.2,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 3.2,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 3.2,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 3.2,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 3.2,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 3.2,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 3.2,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 3.2,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 3.2,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 3.2,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 3.2,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 3.2,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 3.2,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 3.2,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 3.2,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 3.2,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 3.3,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 3.3,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 3.3,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 3.3,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 3.3,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 3.3,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 3.3,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 3.3,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 3.3,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 3.3,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 3.3,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 3.3,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 3.3,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 3.3,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 3.3,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 3.3,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 3.3,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 3.3,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 3.3,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 3.3,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 3.3,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 3.3,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 3.3,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 3.3,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 3.3,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 3.3,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 3.3,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 3.3,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 3.3,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 3.3,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 3.3,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 3.3,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 3.3,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 3.3,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 3.3,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 3.3,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 3.3,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 3.3,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 3.3,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 3.3,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 3.3,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 3.3,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 3.3,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 3.3,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 3.3,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 3.3,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 3.3,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 3.4,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 3.4,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 3.4,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 3.4,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 3.4,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 3.4,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 3.4,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 3.4,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 3.4,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 3.4,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 3.4,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 3.4,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 3.4,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 3.4,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 3.4,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 3.4,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 3.4,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 3.4,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 3.4,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 3.4,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 3.4,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 3.4,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 3.4,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 3.4,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 3.4,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 3.4,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 3.4,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 3.4,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 3.4,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 3.4,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 3.4,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 3.4,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 3.4,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 3.4,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 3.4,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 3.4,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 3.4,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 3.4,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 3.4,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 3.4,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 3.4,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 3.4,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 3.4,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 3.4,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 3.4,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 3.4,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 3.4,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 3.5,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 3.5,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 3.5,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 3.5,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 3.5,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 3.5,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 3.5,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 3.5,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 3.5,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 3.5,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 3.5,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 3.5,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 3.5,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 3.5,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 3.5,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 3.5,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 3.5,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 3.5,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 3.5,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 3.5,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 3.5,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 3.5,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 3.5,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 3.5,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 3.5,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 3.5,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 3.5,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 3.5,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 3.5,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 3.5,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 3.5,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 3.5,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 3.5,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 3.5,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 3.5,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 3.5,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 3.5,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 3.5,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 3.5,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 3.5,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 3.5,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 3.5,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 3.5,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 3.5,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 3.5,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 3.5,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 3.5,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 3.6,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 3.6,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 3.6,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 3.6,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 3.6,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 3.6,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 3.6,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 3.6,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 3.6,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 3.6,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 3.6,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 3.6,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 3.6,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 3.6,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 3.6,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 3.6,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 3.6,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 3.6,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 3.6,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 3.6,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 3.6,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 3.6,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 3.6,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 3.6,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 3.6,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 3.6,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 3.6,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 3.6,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 3.6,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 3.6,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 3.6,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 3.6,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 3.6,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 3.6,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 3.6,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 3.6,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 3.6,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 3.6,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 3.6,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 3.6,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 3.6,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 3.6,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 3.6,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 3.6,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 3.6,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 3.6,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 3.6,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 3.7,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 3.7,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 3.7,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 3.7,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 3.7,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 3.7,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 3.7,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 3.7,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 3.7,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 3.7,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 3.7,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 3.7,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 3.7,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 3.7,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 3.7,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 3.7,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 3.7,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 3.7,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 3.7,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 3.7,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 3.7,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 3.7,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 3.7,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 3.7,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 3.7,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 3.7,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 3.7,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 3.7,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 3.7,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 3.7,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 3.7,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 3.7,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 3.7,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 3.7,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 3.7,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 3.7,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 3.7,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 3.7,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 3.7,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 3.7,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 3.7,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 3.7,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 3.7,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 3.7,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 3.7,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 3.7,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 3.7,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 3.8,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 3.8,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 3.8,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 3.8,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 3.8,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 3.8,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 3.8,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 3.8,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 3.8,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 3.8,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 3.8,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 3.8,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 3.8,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 3.8,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 3.8,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 3.8,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 3.8,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 3.8,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 3.8,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 3.8,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 3.8,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 3.8,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 3.8,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 3.8,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 3.8,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 3.8,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 3.8,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 3.8,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 3.8,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 3.8,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 3.8,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 3.8,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 3.8,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 3.8,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 3.8,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 3.8,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 3.8,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 3.8,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 3.8,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 3.8,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 3.8,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 3.8,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 3.8,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 3.8,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 3.8,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 3.8,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 3.8,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 3.9,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 3.9,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 3.9,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 3.9,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 3.9,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 3.9,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 3.9,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 3.9,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 3.9,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 3.9,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 3.9,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 3.9,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 3.9,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 3.9,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 3.9,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 3.9,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 3.9,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 3.9,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 3.9,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 3.9,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 3.9,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 3.9,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 3.9,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 3.9,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 3.9,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 3.9,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 3.9,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 3.9,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 3.9,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 3.9,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 3.9,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 3.9,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 3.9,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 3.9,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 3.9,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 3.9,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 3.9,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 3.9,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 3.9,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 3.9,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 3.9,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 3.9,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 3.9,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 3.9,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 3.9,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 3.9,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 3.9,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 3.10,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 3.10,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 3.10,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 3.10,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 3.10,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 3.10,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 3.10,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 3.10,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 3.10,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 3.10,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 3.10,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 3.10,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 3.10,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 3.10,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 3.10,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 3.10,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 3.10,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 3.10,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 3.10,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 3.10,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 3.10,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 3.10,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 3.10,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 3.10,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 3.10,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 3.10,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 3.10,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 3.10,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 3.10,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 3.10,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 3.10,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 3.10,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 3.10,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 3.10,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 3.10,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 3.10,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 3.10,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 3.10,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 3.10,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 3.10,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 3.10,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 3.10,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 3.10,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 3.10,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 3.10,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 3.10,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 3.10,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 3.11,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 3.11,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 3.11,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 3.11,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 3.11,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 3.11,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 3.11,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 3.11,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 3.11,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 3.11,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 3.11,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 3.11,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 3.11,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 3.11,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 3.11,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 3.11,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 3.11,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 3.11,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 3.11,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 3.11,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 3.11,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 3.11,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 3.11,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 3.11,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 3.11,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 3.11,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 3.11,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 3.11,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 3.11,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 3.11,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 3.11,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 3.11,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 3.11,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 3.11,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 3.11,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 3.11,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 3.11,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 3.11,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 3.11,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 3.11,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 3.11,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 3.11,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 3.11,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 3.11,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 3.11,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 3.11,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 3.11,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 4.1,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 4.1,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 4.1,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 4.1,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 4.1,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 4.1,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 4.1,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 4.1,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 4.1,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 4.1,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 4.1,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 4.1,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 4.1,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 4.1,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 4.1,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 4.1,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 4.1,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 4.1,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 4.1,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 4.1,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 4.1,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 4.1,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 4.1,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 4.1,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 4.1,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 4.1,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 4.1,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 4.1,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 4.1,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 4.1,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 4.1,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 4.1,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 4.1,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 4.1,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 4.1,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 4.1,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 4.1,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 4.1,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 4.1,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 4.1,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 4.1,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 4.1,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 4.1,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 4.1,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 4.1,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 4.1,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 4.1,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 4.2,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 4.2,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 4.2,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 4.2,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 4.2,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 4.2,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 4.2,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 4.2,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 4.2,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 4.2,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 4.2,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 4.2,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 4.2,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 4.2,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 4.2,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 4.2,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 4.2,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 4.2,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 4.2,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 4.2,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 4.2,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 4.2,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 4.2,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 4.2,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 4.2,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 4.2,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 4.2,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 4.2,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 4.2,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 4.2,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 4.2,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 4.2,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 4.2,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 4.2,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 4.2,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 4.2,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 4.2,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 4.2,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 4.2,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 4.2,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 4.2,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 4.2,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 4.2,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 4.2,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 4.2,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 4.2,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 4.2,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 4.3,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 4.3,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 4.3,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 4.3,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 4.3,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 4.3,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 4.3,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 4.3,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 4.3,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 4.3,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 4.3,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 4.3,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 4.3,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 4.3,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 4.3,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 4.3,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 4.3,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 4.3,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 4.3,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 4.3,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 4.3,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 4.3,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 4.3,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 4.3,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 4.3,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 4.3,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 4.3,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 4.3,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 4.3,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 4.3,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 4.3,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 4.3,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 4.3,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 4.3,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 4.3,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 4.3,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 4.3,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 4.3,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 4.3,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 4.3,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 4.3,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 4.3,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 4.3,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 4.3,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 4.3,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 4.3,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 4.3,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 4.4,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 4.4,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 4.4,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 4.4,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 4.4,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 4.4,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 4.4,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 4.4,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 4.4,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 4.4,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 4.4,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 4.4,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 4.4,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 4.4,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 4.4,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 4.4,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 4.4,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 4.4,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 4.4,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 4.4,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 4.4,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 4.4,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 4.4,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 4.4,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 4.4,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 4.4,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 4.4,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 4.4,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 4.4,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 4.4,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 4.4,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 4.4,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 4.4,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 4.4,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 4.4,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 4.4,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 4.4,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 4.4,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 4.4,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 4.4,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 4.4,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 4.4,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 4.4,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 4.4,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 4.4,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 4.4,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 4.4,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 4.5,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 4.5,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 4.5,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 4.5,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 4.5,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 4.5,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 4.5,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 4.5,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 4.5,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 4.5,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 4.5,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 4.5,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 4.5,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 4.5,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 4.5,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 4.5,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 4.5,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 4.5,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 4.5,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 4.5,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 4.5,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 4.5,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 4.5,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 4.5,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 4.5,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 4.5,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 4.5,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 4.5,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 4.5,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 4.5,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 4.5,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 4.5,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 4.5,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 4.5,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 4.5,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 4.5,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 4.5,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 4.5,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 4.5,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 4.5,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 4.5,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 4.5,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 4.5,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 4.5,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 4.5,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 4.5,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 4.5,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 4.6,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 4.6,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 4.6,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 4.6,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 4.6,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 4.6,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 4.6,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 4.6,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 4.6,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 4.6,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 4.6,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 4.6,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 4.6,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 4.6,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 4.6,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 4.6,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 4.6,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 4.6,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 4.6,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 4.6,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 4.6,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 4.6,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 4.6,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 4.6,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 4.6,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 4.6,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 4.6,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 4.6,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 4.6,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 4.6,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 4.6,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 4.6,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 4.6,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 4.6,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 4.6,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 4.6,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 4.6,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 4.6,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 4.6,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 4.6,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 4.6,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 4.6,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 4.6,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 4.6,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 4.6,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 4.6,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 4.6,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 4.7,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 4.7,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 4.7,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 4.7,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 4.7,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 4.7,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 4.7,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 4.7,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 4.7,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 4.7,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 4.7,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 4.7,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 4.7,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 4.7,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 4.7,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 4.7,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 4.7,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 4.7,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 4.7,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 4.7,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 4.7,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 4.7,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 4.7,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 4.7,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 4.7,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 4.7,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 4.7,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 4.7,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 4.7,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 4.7,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 4.7,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 4.7,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 4.7,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 4.7,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 4.7,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 4.7,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 4.7,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 4.7,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 4.7,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 4.7,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 4.7,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 4.7,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 4.7,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 4.7,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 4.7,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 4.7,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 4.7,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 4.8,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 4.8,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 4.8,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 4.8,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 4.8,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 4.8,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 4.8,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 4.8,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 4.8,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 4.8,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 4.8,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 4.8,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 4.8,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 4.8,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 4.8,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 4.8,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 4.8,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 4.8,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 4.8,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 4.8,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 4.8,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 4.8,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 4.8,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 4.8,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 4.8,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 4.8,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 4.8,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 4.8,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 4.8,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 4.8,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 4.8,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 4.8,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 4.8,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 4.8,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 4.8,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 4.8,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 4.8,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 4.8,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 4.8,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 4.8,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 4.8,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 4.8,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 4.8,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 4.8,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 4.8,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 4.8,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 4.8,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 4.9,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 4.9,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 4.9,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 4.9,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 4.9,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 4.9,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 4.9,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 4.9,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 4.9,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 4.9,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 4.9,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 4.9,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 4.9,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 4.9,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 4.9,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 4.9,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 4.9,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 4.9,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 4.9,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 4.9,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 4.9,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 4.9,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 4.9,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 4.9,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 4.9,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 4.9,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 4.9,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 4.9,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 4.9,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 4.9,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 4.9,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 4.9,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 4.9,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 4.9,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 4.9,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 4.9,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 4.9,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 4.9,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 4.9,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 4.9,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 4.9,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 4.9,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 4.9,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 4.9,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 4.9,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 4.9,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 4.9,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 4.10,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 4.10,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 4.10,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 4.10,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 4.10,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 4.10,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 4.10,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 4.10,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 4.10,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 4.10,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 4.10,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 4.10,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 4.10,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 4.10,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 4.10,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 4.10,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 4.10,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 4.10,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 4.10,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 4.10,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 4.10,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 4.10,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 4.10,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 4.10,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 4.10,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 4.10,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 4.10,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 4.10,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 4.10,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 4.10,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 4.10,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 4.10,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 4.10,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 4.10,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 4.10,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 4.10,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 4.10,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 4.10,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 4.10,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 4.10,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 4.10,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 4.10,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 4.10,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 4.10,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 4.10,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 4.10,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 4.10,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 4.11,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 4.11,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 4.11,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 4.11,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 4.11,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 4.11,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 4.11,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 4.11,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 4.11,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 4.11,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 4.11,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 4.11,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 4.11,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 4.11,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 4.11,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 4.11,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 4.11,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 4.11,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 4.11,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 4.11,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 4.11,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 4.11,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 4.11,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 4.11,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 4.11,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 4.11,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 4.11,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 4.11,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 4.11,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 4.11,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 4.11,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 4.11,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 4.11,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 4.11,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 4.11,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 4.11,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 4.11,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 4.11,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 4.11,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 4.11,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 4.11,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 4.11,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 4.11,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 4.11,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 4.11,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 4.11,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 4.11,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 4.12,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 4.12,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 4.12,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 4.12,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 4.12,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 4.12,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 4.12,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 4.12,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 4.12,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 4.12,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 4.12,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 4.12,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 4.12,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 4.12,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 4.12,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 4.12,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 4.12,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 4.12,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 4.12,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 4.12,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 4.12,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 4.12,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 4.12,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 4.12,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 4.12,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 4.12,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 4.12,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 4.12,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 4.12,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 4.12,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 4.12,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 4.12,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 4.12,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 4.12,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 4.12,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 4.12,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 4.12,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 4.12,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 4.12,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 4.12,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 4.12,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 4.12,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 4.12,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 4.12,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 4.12,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 4.12,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 4.12,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 4.13,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 4.13,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 4.13,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 4.13,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 4.13,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 4.13,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 4.13,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 4.13,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 4.13,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 4.13,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 4.13,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 4.13,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 4.13,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 4.13,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 4.13,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 4.13,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 4.13,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 4.13,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 4.13,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 4.13,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 4.13,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 4.13,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 4.13,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 4.13,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 4.13,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 4.13,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 4.13,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 4.13,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 4.13,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 4.13,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 4.13,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 4.13,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 4.13,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 4.13,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 4.13,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 4.13,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 4.13,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 4.13,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 4.13,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 4.13,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 4.13,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 4.13,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 4.13,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 4.13,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 4.13,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 4.13,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 4.13,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 4.14,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 4.14,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 4.14,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 4.14,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 4.14,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 4.14,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 4.14,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 4.14,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 4.14,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 4.14,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 4.14,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 4.14,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 4.14,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 4.14,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 4.14,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 4.14,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 4.14,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 4.14,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 4.14,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 4.14,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 4.14,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 4.14,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 4.14,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 4.14,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 4.14,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 4.14,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 4.14,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 4.14,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 4.14,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 4.14,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 4.14,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 4.14,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 4.14,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 4.14,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 4.14,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 4.14,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 4.14,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 4.14,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 4.14,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 4.14,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 4.14,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 4.14,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 4.14,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 4.14,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 4.14,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 4.14,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 4.14,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 4.15,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 4.15,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 4.15,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 4.15,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 4.15,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 4.15,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 4.15,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 4.15,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 4.15,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 4.15,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 4.15,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 4.15,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 4.15,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 4.15,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 4.15,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 4.15,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 4.15,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 4.15,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 4.15,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 4.15,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 4.15,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 4.15,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 4.15,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 4.15,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 4.15,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 4.15,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 4.15,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 4.15,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 4.15,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 4.15,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 4.15,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 4.15,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 4.15,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 4.15,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 4.15,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 4.15,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 4.15,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 4.15,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 4.15,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 4.15,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 4.15,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 4.15,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 4.15,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 4.15,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 4.15,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 4.15,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 4.15,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 4.16,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 4.16,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 4.16,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 4.16,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 4.16,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 4.16,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 4.16,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 4.16,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 4.16,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 4.16,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 4.16,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 4.16,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 4.16,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 4.16,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 4.16,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 4.16,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 4.16,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 4.16,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 4.16,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 4.16,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 4.16,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 4.16,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 4.16,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 4.16,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 4.16,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 4.16,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 4.16,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 4.16,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 4.16,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 4.16,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 4.16,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 4.16,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 4.16,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 4.16,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 4.16,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 4.16,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 4.16,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 4.16,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 4.16,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 4.16,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 4.16,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 4.16,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 4.16,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 4.16,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 4.16,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 4.16,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 4.16,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 4.17,High,Ensure that the Amazon VPC peering connection configuration is compliant with the desired routing policy,D9.AWS.NET.132,7,7,7
+Principle 4.17,Medium,Enforce creation of ElasticSearch domains within your VPCs,D9.AWS.NET.53,0,0,0
+Principle 4.17,High,Ensure that AWS Neptune cluster deletion protection is enabled,D9.AWS.OPE.52,0,0,0
+Principle 4.17,Medium,Ensure security groups associated with EKS cluster do not have inbound rules with a scope of 0.0.0.0/0,D9.AWS.NET.94,2,2,0
+Principle 4.17,Low,Ensure AWS EBS Volumes are attached to instances,D9.AWS.OPE.05,7,7,0
+Principle 4.17,Medium,Ensure that SageMaker is placed in VPC,D9.AWS.NET.48,0,0,0
+Principle 4.17,Low,Ensure that RDS database instance doesn't use its default endpoint port,D9.AWS.NET.92,0,0,0
+Principle 4.17,High,Ensure that Verified Permissions Policy Store has validation enabled,D9.AWS.OPE.93,0,0,0
+Principle 4.17,High,Ensure no security group contains RFC 1918 CIDRs,D9.AWS.NET.99,7,7,3
+Principle 4.17,Critical,Ensure AWS Redshift clusters are not publicly accessible,D9.AWS.NET.51,0,0,0
+Principle 4.17,Low,Ensure that AWS Cloudfront web distributions are configured to compress objects (files) automatically,D9.AWS.OPE.34,0,0,0
+Principle 4.17,High,Ensure that the VPC Endpoint status is Available state,D9.AWS.NET.55,4,4,0
+Principle 4.17,High,Ensure EC2 Instances are Protected against Termination Actions,D9.AWS.OPE.45,7,7,7
+Principle 4.17,High,ECS Task Definitions should Mount the Root File System as Read-only,D9.AWS.AS.14,0,0,0
+Principle 4.17,High,Ensure Amazon Auto Scaling Groups have cooldown periods enabled ,D9.AWS.OPE.30,1,1,0
+Principle 4.17,High,Ensure that EC2 instance's custom AMI is encrypted at rest,D9.AWS.CRY.67,7,0,0
+Principle 4.17,High,RDS should not have been open to a large scope,D9.AWS.NET.18,0,0,0
+Principle 4.17,Medium,Ensure that at least one Load Balancer is attached to the service,D9.AWS.NET.38,0,0,0
+Principle 4.17,Medium,Instances are Configured under Virtual Private Cloud,D9.AWS.NET.12,7,7,0
+Principle 4.17,Critical,Ensure that EC2 AMIs are not publicly accessible,D9.AWS.NET.29,0,0,0
+Principle 4.17,Low,Ensure that at least one instance is registered with an ECS Cluster,D9.AWS.NET.34,0,0,0
+Principle 4.17,Low,Ensure that Amazon ECR image repositories are using lifecycle policies.,D9.AWS.OPE.24,2,2,2
+Principle 4.17,Critical,Amazon System Manager Document should not be publicly available,D9.AWS.VLN.04,0,0,0
+Principle 4.17,High,Ensure that AWS Lightsail Domain's name server update state is not failed,D9.AWS.MON.46,0,0,0
+Principle 4.17,Medium,Ensure that your Amazon Comprehend Flywheel uses a VPC,D9.AWS.NET.139,0,0,0
+Principle 4.17,High,Enforce HTTPS for Amazon Elastic Beanstalk environment load balancers,D9.AWS.NET.1010,0,0,0
+Principle 4.17,Low,Ensure that Classic Load Balancers are using one of the latest predefined security policies,D9.AWS.NET.1022,0,0,0
+Principle 4.17,Low,Ensure that DocumentDB delete protection is enabled,D9.AWS.OPE.51,0,0,0
+Principle 4.17,Medium,EksCluster endpoint should not be publicly accessible,D9.AWS.NET.71,2,2,2
+Principle 4.17,Low,Ensure that Amazon ALBs are using the latest predefined security policy for their SSL/TLS negotiation configuration,D9.AWS.NET.1021,0,0,0
+Principle 4.17,Critical,RDS Databases with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.28,0,0,0
+Principle 4.17,Critical,Ensure that public access is not given to RDS Instance,D9.AWS.NET.17,0,0,0
+Principle 4.17,Critical,Ensure AWS VPC subnets have automatic public IP assignment disabled,D9.AWS.NET.47,28,28,7
+Principle 4.17,Low,Ensure IMDS Response Hop Limit is Set to One,D9.AWS.NET.97,7,7,5
+Principle 4.17,High,Ensure EMR clusters nodes should not have public IP,D9.AWS.NET.93,0,0,0
+Principle 4.17,Medium,Ensure AWS Lambda function is configured inside a VPC,D9.AWS.NET.74,66,66,66
+Principle 4.17,Low,Ensure CloudFormation service is in use for defining your cloud architectures on Amazon Web Services,D9.AWS.OPE.54,1,1,0
+Principle 4.17,Low,Ensure Auto Scaling group have scaling cooldown higher than a minute,D9.AWS.OPE.21,1,1,0
+Principle 4.17,Medium,Ensure that Amazon EC2 Auto Scaling groups should use Amazon EC2 launch templates,D9.AWS.OPE.60,1,1,0
+Principle 4.17,High,Ensure AWS Lightsail Disk's auto-mount status is not failed,D9.AWS.MON.44,0,0,0
+Principle 4.17,High,Ensure EC2 instances are launched using the EC2-VPC platform instead of the EC2-Classic outdated platform,D9.AWS.NET.128,7,7,0
+Principle 4.17,Critical,Instances with Direct Connect virtual interface should not have public interfaces,D9.AWS.NET.27,7,0,0
+Principle 4.17,High,Ensure that AppRunner Service not publicly accessible through the internet,D9.AWS.NET.134,0,0,0
+Principle 4.17,High,Ensure that public System Manager Documents include parameters,D9.AWS.VLN.05,0,0,0
+Principle 4.17,Medium,Ensure that RDS cluster delete protection is enabled,D9.AWS.OPE.48,0,0,0
+Principle 4.17,Critical,RDS should not have Public Interface,D9.AWS.NET.16,0,0,0
+Principle 4.17,Critical,Ensure that S3 Buckets are configured with 'Block public access (bucket settings)',D9.AWS.NET.72,0,0,0
+Principle 7.1,High,Ensure that Multi-Factor Authentication is Enabled for All IAM Users,D9.AWS.IAM.175,2,2,2
+Principle 7.1,High,Ensure that Multi-Factor Authentication (MFA) is enabled for your AWS Cognito User Pool,D9.AWS.IAM.23,0,0,0
+Principle 7.1,Low,Ensure multi-factor authentication (MFA) is enabled for all IAM users that have a console password,D9.AWS.IAM.02,2,0,0
+Principle 7.2,High,Ensure that Multi-Factor Authentication is Enabled for All IAM Users,D9.AWS.IAM.175,2,2,2
+Principle 7.2,High,Ensure that Multi-Factor Authentication (MFA) is enabled for your AWS Cognito User Pool,D9.AWS.IAM.23,0,0,0
+Principle 7.2,Low,Ensure multi-factor authentication (MFA) is enabled for all IAM users that have a console password,D9.AWS.IAM.02,2,0,0
+Principle 7.3,High,Ensure that Multi-Factor Authentication is Enabled for All IAM Users,D9.AWS.IAM.175,2,2,2
+Principle 7.3,High,Ensure that Multi-Factor Authentication (MFA) is enabled for your AWS Cognito User Pool,D9.AWS.IAM.23,0,0,0
+Principle 7.3,Low,Ensure multi-factor authentication (MFA) is enabled for all IAM users that have a console password,D9.AWS.IAM.02,2,0,0
+Principle 7.4,High,Ensure that Multi-Factor Authentication is Enabled for All IAM Users,D9.AWS.IAM.175,2,2,2
+Principle 7.4,High,Ensure that Multi-Factor Authentication (MFA) is enabled for your AWS Cognito User Pool,D9.AWS.IAM.23,0,0,0
+Principle 7.4,Low,Ensure multi-factor authentication (MFA) is enabled for all IAM users that have a console password,D9.AWS.IAM.02,2,0,0
+Principle 7.5,High,Ensure that Multi-Factor Authentication is Enabled for All IAM Users,D9.AWS.IAM.175,2,2,2
+Principle 7.5,High,Ensure that Multi-Factor Authentication (MFA) is enabled for your AWS Cognito User Pool,D9.AWS.IAM.23,0,0,0
+Principle 7.5,Low,Ensure multi-factor authentication (MFA) is enabled for all IAM users that have a console password,D9.AWS.IAM.02,2,0,0
+Principle 7.6,High,Ensure that Multi-Factor Authentication is Enabled for All IAM Users,D9.AWS.IAM.175,2,2,2
+Principle 7.6,High,Ensure that Multi-Factor Authentication (MFA) is enabled for your AWS Cognito User Pool,D9.AWS.IAM.23,0,0,0
+Principle 7.6,Low,Ensure multi-factor authentication (MFA) is enabled for all IAM users that have a console password,D9.AWS.IAM.02,2,0,0
+Principle 7.7,High,Ensure that Multi-Factor Authentication is Enabled for All IAM Users,D9.AWS.IAM.175,2,2,2
+Principle 7.7,High,Ensure that Multi-Factor Authentication (MFA) is enabled for your AWS Cognito User Pool,D9.AWS.IAM.23,0,0,0
+Principle 7.7,Low,Ensure multi-factor authentication (MFA) is enabled for all IAM users that have a console password,D9.AWS.IAM.02,2,0,0
+Principle 7.8,High,Ensure a log metric filter and alarm exist for STS 'AssumeRole' action,D9.AWS.MON.22,1,1,1
+Principle 7.8,Medium,Ensure a log metric filter and alarm exist for EC2 instance changes,D9.AWS.MON.26,1,1,1
+Principle 7.8,Medium,Ensure your AWS CloudFormation stacks are integrated with Simple Notification Service (SNS),D9.AWS.MON.36,101,101,101
+Principle 7.8,Low,Ensure a log metric filter and alarm exists for AWS MFA Deletion for IAM users,D9.AWS.MON.25,1,1,1
+Principle 7.8,Low,Ensure Email Address is added for each Amazon Detective's Member,D9.AWS.MON.47,0,0,0
+Principle 7.8,High,Ensure a log metric filter and alarm exist for IAM login profile changes,D9.AWS.MON.21,1,1,1
+Principle 7.8,Low,Ensure that the configuration recorder is set to 'on' and set S3 Bucket and SNS topic as your delivery channel,D9.AWS.MON.16,0,0,0
+Principle 7.8,Low,Ensure Auto Scaling group does not have suspended processes,D9.AWS.OPE.20,1,1,0
+Principle 7.8,High,Ensure a log metric filter and alarm exist for SSM actions,D9.AWS.MON.23,1,1,1
+Principle 7.8,Medium,Ensure a log metric filter and alarm exist for EC2 Large instance changes,D9.AWS.MON.27,1,1,1
+Principle 7.8,Low,Ensure Network firewall alerts logging is enabled,D9.AWS.LOG.21,0,0,0
+Principle 7.8,Low,Ensure that Support Case status is not 'pending-customer-action',D9.AWS.OPE.78,0,0,0
+Principle 7.10,Low,Ensure security contact information is registered,D9.AWS.OPE.22,0,0,0
+Principle 7.10,Low,Ensure that IAM Access analyzer is enabled for all regions,D9.AWS.IAM.74,18,18,18
+Principle 7.10,High,Ensure that Amazon Inspector Findings are analyzed and resolved (Lambda),D9.AWS.VLN.13,1,1,1
+Principle 7.10,High,Ensure that Amazon Inspector Findings are analyzed and resolved (EC2),D9.AWS.VLN.11,0,0,0
+Principle 7.10,High,Ensure that Amazon Inspector Findings are analyzed and resolved (ECR),D9.AWS.VLN.12,0,0,0
+Principle 8.1,High,Ensure Amazon DynamoDB tables have continuous backups enabled,D9.AWS.DR.04,0,0,0
+Principle 8.1,High,Ensure AWS RDS instances have Automatic Backup set up,D9.AWS.DR.01,0,0,0
+Principle 8.2,High,Ensure Amazon DynamoDB tables have continuous backups enabled,D9.AWS.DR.04,0,0,0
+Principle 8.2,High,Ensure AWS RDS instances have Automatic Backup set up,D9.AWS.DR.01,0,0,0
+Principle 8.3,High,Ensure Amazon DynamoDB tables have continuous backups enabled,D9.AWS.DR.04,0,0,0
+Principle 8.3,High,Ensure AWS RDS instances have Automatic Backup set up,D9.AWS.DR.01,0,0,0
+Principle 8.3,Medium,RDS database snapshots should be encrypted at rest,D9.AWS.CRY.81,0,0,0
+Principle 8.3,High,Ensure that encryption is enabled for AWS EBS Snapshot,D9.AWS.CRY.76,106,106,106
