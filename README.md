@@ -19,7 +19,7 @@ To set up the Compliance Report Generator, ensure you have Python and `pip` inst
 2. Clone this repository to your machine using:
 
     ```bash
-    git clone https://github.com/your-username/compliance-report-generator.git
+    git clone https://github.com/Check-Point-APAC-CSA-Team/compliance-report-by-tag.git
     ```
 
 3. Change to the repository directory:
