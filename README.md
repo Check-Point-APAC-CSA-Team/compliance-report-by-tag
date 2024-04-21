@@ -1,6 +1,6 @@
 # Compliance Report Generator
 
-This tool generates a comprehensive Compliance Report focusing on Compliance Tags. It represents the compliance status according to specific compliance principles, which allows for an in-depth analysis of adherence to compliance frameworks.
+This tool generates a comprehensive Compliance Report focusing on Compliance Tags. It represents the compliance status according to specific compliance principles, which allows for an in-depth analysis of adherence to compliance frameworks. Thanks for Jonas Rosenboom's contribution for the initial version of the Code.
 
 ## Description
 
