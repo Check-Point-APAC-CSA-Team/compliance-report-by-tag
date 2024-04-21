@@ -1,6 +1,6 @@
 # Compliance Report Generator
 
-This tool generates a comprehensive Compliance Report focusing on Compliance Tags. It represents the compliance status according to specific compliance principles, which allows for an in-depth analysis of adherence to compliance frameworks.
+This tool generates a comprehensive Compliance Report focusing on Compliance Tags. It represents the compliance status according to specific compliance principles, which allows for an in-depth analysis of adherence to compliance frameworks. Thanks to Jonas Rosenboom for providing the first version.
 
 ## Description
 
@@ -36,7 +36,3 @@ To generate the compliance report, execute the script with the bundle ID as a co
 
 ```bash
 python compliance_report_generator.py <bundle_id>
-
-## Contribution
-
-Thanks for Jonas Rosenboom to provide first, initial Version and his guidance.
